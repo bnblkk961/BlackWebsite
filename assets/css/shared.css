@@ -116,7 +116,7 @@ a { color: inherit; text-decoration: none; }
 .nav-left li, .nav-right li { list-style: none; display: inline-flex; align-items: center; margin: 0; padding: 0; white-space: nowrap; }
 .nav-left li::before, .nav-right li::before { content: none; }
 .nav a {
-	color: var(--bb-paper);
+	color: #00ff00;
 	opacity: .7;
 	transition: opacity .2s;
 	text-transform: uppercase;
