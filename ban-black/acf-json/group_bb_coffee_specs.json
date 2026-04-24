@@ -1,0 +1,18 @@
+{
+	"key": "group_bb_coffee_specs",
+	"title": "Coffee Specs",
+	"fields": [
+		{ "key": "field_bb_origin",   "label": "Origin (region, country)", "name": "bb_origin",   "type": "text", "placeholder": "Gesha, Ethiopia" },
+		{ "key": "field_bb_altitude", "label": "Altitude",                 "name": "bb_altitude", "type": "text", "placeholder": "1800m" },
+		{ "key": "field_bb_process",  "label": "Process",                  "name": "bb_process",  "type": "select", "choices": { "Washed": "Washed", "Natural": "Natural", "Honey": "Honey", "Anaerobic": "Anaerobic" } },
+		{ "key": "field_bb_roast",    "label": "Roast level",              "name": "bb_roast",    "type": "select", "choices": { "Light": "Light", "Light-Medium": "Light-Medium", "Medium": "Medium", "Medium-Dark": "Medium-Dark", "Dark": "Dark", "Espresso": "Espresso" } },
+		{ "key": "field_bb_notes",    "label": "Tasting notes",            "name": "bb_notes",    "type": "text", "placeholder": "Jasmine · Bergamot · Peach" },
+		{ "key": "field_bb_weight",   "label": "Package weight",           "name": "bb_weight",   "type": "text", "placeholder": "250g" },
+		{ "key": "field_bb_harvest",  "label": "Harvest date",             "name": "bb_harvest",  "type": "date_picker" },
+		{ "key": "field_bb_story",    "label": "Origin story",             "name": "bb_story",    "type": "wysiwyg", "tabs": "visual", "toolbar": "basic" }
+	],
+	"location": [ [ { "param": "post_type", "operator": "==", "value": "product" } ] ],
+	"position": "normal",
+	"style": "default",
+	"active": true
+}

@@ -1,0 +1,19 @@
+/*
+Theme Name: Ban Black
+Theme URI: https://banblack.com
+Author: Ban Black
+Author URI: https://banblack.com
+Description: The coffee world in one store. A custom editorial theme for Ban Black — specialty coffee, espresso machines, and brew equipment. Built for WooCommerce. Dark, typographic, grain-textured. Roboto + Playfair Display + Noto Naskh Arabic.
+Version: 1.0.0
+Requires at least: 6.4
+Tested up to: 6.7
+Requires PHP: 8.0
+License: Proprietary
+License URI: https://banblack.com
+Text Domain: ban-black
+Tags: woocommerce, editorial, dark, e-commerce, specialty-coffee
+*/
+
+/* This file exists ONLY for the WordPress theme header metadata above.
+   Real styles live in /assets/css/ and are enqueued via inc/enqueue.php.
+   Do not add CSS here. */
