@@ -25,15 +25,16 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 			wp_nav_menu( [
 				'theme_location' => 'primary',
 				'container'      => false,
-				'items_wrap'     => '%3$s',
+				'menu_class'     => 'nav-menu',
 				'depth'          => 1,
 			] );
 		} else {
-			// Fallback links
-			echo '<a href="' . esc_url( wc_get_page_permalink( 'shop' ) ) . '">Shop</a>';
-			echo '<a href="/about">Story</a>';
-			echo '<a href="/journal">Journal</a>';
-			echo '<a href="/wholesale">Wholesale</a>';
+			echo '<ul class="nav-menu">';
+			echo '<li><a href="' . esc_url( home_url('/') ) . '">Home</a></li>';
+			echo '<li><a href="' . esc_url( wc_get_page_permalink('shop') ) . '">Shop</a></li>';
+			echo '<li><a href="/about">Story</a></li>';
+			echo '<li><a href="/wholesale">Wholesale</a></li>';
+			echo '</ul>';
 		}
 		?>
 	</div>
